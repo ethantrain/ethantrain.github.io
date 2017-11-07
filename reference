@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+  
+     <h1>Html Reference Page</h1>
+     <p>By Owen Marlon</p>
+     
+     <table>
+    <tr>
+        <th>Name</th>
+        <th>Start Tag</th>
+        <th>End Tag</th>
+        <th>Example</th>
+        
+    </tr>
+    <tr>
+      <td><a href="#HTML">HTML</a></td>
+      <td>&lt;html&gt;</td>
+      <td>&lt;/html&gt;</td>
+      <td>&lt;html&gt; webpage stuff &lt;/html&gt;</td>
+    </tr>
+    <tr>
+      <td><p><a href="#Head">Head</a></p></td>
+      <td>&lt;head&gt;</td>
+      <td>&lt;/head&gt;</td>
+      <td>&lt;head&gt;Reference Page&lt;/head&gt;</td>
+    </tr>
+    <tr>
+      <td><p><a href="#Title">Title</a></p></td>
+      <td>&lt;title&gt;</td>
+      <td>&lt;/title&gt;</td>
+      <td>&lt;title&gt;Reference Page&lt;/title&gt;</td>
+    </tr>
+    <tr>
+      <td><p><a href="#Body">Body</a></p></td>
+      <td>&lt;body&gt;</td>
+      <td>&lt;/body&gt;</td>
+      <td>&lt;body&gt;stuff&lt;body&gt;</td>
+    </tr>
+    <tr>
+        <td><p><a href="#Headings">Headings</a></p></td>
+        <td>&lt;h1&gt;</td>
+        <td>&lt;/h1&gt;</td>
+        <td>&lt;h1&gt;Reference page&lt;/h1&gt;</td>
+    </tr>
+    <tr>
+        <td><p><a href="#Paragraph">Paragraph</a></p></td>
+        <td>&lt;p&gt;</td>
+        <td>&lt;/p&gt;</td>
+        <td>&lt;h1&gt;Paragraph&lt;/p&gt;</td>
+    </tr>
+    <tr>
+        <td><p><a href="#Breaks">Breaks</a></p></td>
+        <td>&lt;br&gt;</td>
+        <td></td>
+        <td>&lt;br&gt;</td>
+    </tr>
+    <tr>
+        <td><p><a href="#Lines">Lines</a></p></td>
+        <td>&lt;hr&gt;</td>
+        <td></td>
+        <td>&lt;hr&gt;</td>
+    </tr>
+    <tr>
+        <td><p><a href="#Comments">Comments</a></p></td>
+        <td>&lt;!--   --&gt;</td>
+        <td></td>
+        <td>&lt;/!--Comment--&gt;</td>
+    </tr>
+    <tr>
+        <td><p><a href="#Links">Links</a></p></td>
+        <td>&lt;a href="link"&gt;</td>
+        <td>&lt;/a&gt;</td>
+        <td>&lt;a href="link"&gt;https://youtube.com&lt;/a&gt;</td>
+    </tr>
+    <tr>
+        <td><p><a href="#Images">Images</a></p></td>
+        <td>&lt;img&gt;</td>
+        <td>&lt;/img&gt;</td>
+        <td>&lt;img&gt;Flowers.jpg&lt;/img&gt;</td>
+    </tr>
+    <tr>
+        <td><p><a href="#Lists">Lists</a></p></td>
+        <td>&lt;ul&gt;&lt;ol&gt;&lt;li&gt;</td>
+        <td>&lt;/ul&gt;&lt;/ol&gt;&lt;/il&gt;</td>
+        <td>&lt;ul&gt;&lt;ol&gt;&lt;li&gt;List&lt;/ul&gt;&lt;/ol&gt;&lt;/il&gt;</td>
+    </tr>
+    <tr>
+        <td><p><a href="#Tables">Tables</a></p></td>
+        <td>&lt;table&gt;&lt;tr&gt;&lt;th&gt;&lt;td&gt;</td>
+        <td>&lt;/table&gt;&lt;/tr&gt;&lt;/th&gt;&lt;/td&gt;</td>
+        <td>&lt;table&gt;&lt;tr&gt;item&lt;th&gt;list&lt;td&gt;item&lt;/table&gt;&lt;/tr&gt;&lt;/th&gt;&lt;/td&gt;</td>
+    </tr>
+    <tr>
+        <td><p><a href="#Blocks">Blocks</a></p></td>
+        <td>&lt;div&gt;</td>
+        <td>&lt;/div&gt;</td>
+        <td>&lt;div&gt; hello &lt;/div&gt;&lt;div&gt; world &lt;/div&gt;</td>
+</table>
+<hr>
+     <h1>Heading Element</h1>
+     
+        <h2 id="HTML">HTML</h2>
+     <h3>Description</h3>
+     <p>This is the first step in creating a website.</p>
+     <h3>Syntax</h3>
+     <p> start tag: &lt;html&gt; </p>
+     <p> content: body</p>
+     <p> end tag: &lt;/html&gt; </p>
+     <h3>Example</h3>
+     <p> &lt;html&gt;</p>
+     <p>&lt;body&gt; </p>
+     <p> &lt;/body&gt; </p>
+     <p>&lt;/html&gt;</p>
+     <h3>Display</h3>
+     <p>(It looks like a blank page until you add content) </p>
+     <a href="https://www.w3schools.com/html/default.asp">W2Schools</a>
+     <hr>
+          <h2 id="Head">Head</h2>
+     <h3>Description</h3>
+     <p>This is a container for data about data.</p>
+     <h3>Syntax</h3>
+     <p> start tag: &lt;head&gt;</p>
+     <p> content: &lt;title&gt;</p>
+     <p> end tag: &lt;/head&gt;</p>
+     <h3>Example</h3>
+     <p>&lt;head&gt;</p>
+     <p>&lt;title&gt; Title &lt;/title&gt;</p>
+     <p>&lt;/head&gt;</p>
+    <a href="https://www.w3schools.com/html/html_head.asp">W2Schools</a>
+     <hr>
+          <h2 id="Title">Title</h2>
+     <h3>Description</h3>
+     <p>Heads the page</p>
+     <h3>Syntax</h3>
+     <p> start tag: &lt;title&gt;</p>
+     <p> content: Title</p>
+     <p> end tag: &lt;/title&gt;</p>
+     <h3>Example</h3>
+     <p>&lt;title&gt;</p>
+     <p>Title</p>
+     <p>&lt;/title&gt;</p>
+    <a href="https://www.w3schools.com/html/html_intro.asp">W2Schools</a>
+      <hr>    
+          <h2 id="Body">Body</h2>
+     <h3>Description</h3>
+     <p>This is the content of the website.</p>
+     <h3>Syntax</h3>
+     <p> start tag:&lt;body&gt;</p>
+     <p> content: content</p>
+     <p> end tag:&lt;/body&gt;</p>
+     <h3>Example</h3>
+     <p>&lt;body&gt;</p>
+     <p>content</p>
+     <p>&lt;/body&gt;</p>
+    <a href="https://www.w3schools.com/html/html_intro.asp">W2Schools</a>
+    <hr>
+          <h2 id="Headings">Headings</h2>
+     <h3>Description</h3>
+     <p>To create a heading.</p>
+     <h3>Syntax</h3>
+     <p> start tag: &lt;h1&gt;</p>
+     <p> content: content</p>
+     <p> end tag: &lt;/h1&gt;</p>
+     <h3>Example</h3>
+     <p>&lt;h1&gt;This Is a Heading &lt;/h1&gt;</p>
+     <h3>Display</h3>
+     <h1>This Is a Heading</h1>
+     <a href="https://www.w3schools.com/html/html_headings.asp">W2Schools</a>
+       <hr>   
+          <h2 id="Paragraph">Paragraph</h2>
+     <h3>Description</h3>
+     <p>This is how to make paragraphs</p>
+     <h3>Syntax</h3>
+     <p> start tag: &lt;p&gt;</p>
+     <p> content: This is a paragraph</p>
+     <p> end tag: &lt;/p&gt;</p>
+     <h3>Example</h3>
+     <p>&lt;p&gt; This is a paragraph &lt;/p&gt;</p>
+     <h3>Display</h3>
+     <p>This is a paragraph</p>
+     <a href="https://www.w3schools.com/html/html_paragraphs.asp">W2Schools</a>
+      <hr>    
+          <h2 id="Breaks">Breaks</h2>
+     <h3>Description</h3>
+     <p>This is a single line break</p>
+     <h3>Syntax</h3>
+     <p> start tag: &lt;br&gt;</p>
+     <p> end tag: N/A</p>
+     <h3>Example</h3>
+     <p> &lt;br&gt;</p>
+     <a href="https://www.w3schools.com/tags/tag_br.asp">W2Schools</a>
+       <hr>   
+          <h2 id="Lines">Lines</h2>
+     <h3>Description</h3>
+     <p>How to make a line</p>
+     <h3>Syntax</h3>
+     <p> start tag: &lt;hr&gt;</p>
+     <h3>Example</h3>
+     <p>&lt;hr&gt;</p>
+     <a href="https://www.w3schools.com/tags/tag_hr.asp">W2Schools</a>
+       <hr>   
+          <h2 id="Comments">Comments</h2>
+     <h3>Description</h3>
+     <p>Comment tags are used to insert comments in the HTML source code</p>
+     <h3>Syntax</h3>
+     <p> start tag: &lt;!--&gt;</p>
+     <p> content: comment</p>
+     <p> end tag: &lt;--&gt;</p>
+     <h3>Example</h3>
+      <p>&lt;!-- (comment) --&gt;</p>
+    <a href="https://www.w3schools.com/html/html_comments.asp">W2Schools</a>
+      <hr>    
+          <h2 id="Links">Links</h2>
+     <h3>Description</h3>
+     <p>How to link other sites</p>
+     <h3>Syntax</h3>
+     <p> start tag: &lt;a href="url"&gt;</p>
+     <p> content: Link</p>
+     <p> end tag: &lt;/a&gt;</p>
+     <h3>Example</h3>
+     <p>	&lt;a href="https://youtube.com"&gt;Youtube&lt;/a&gt;</p>
+     <h3>Display</h3>
+     <a href="https://youtube.com">Youtube</a>
+     
+     <a href="https://www.w3schools.com/html/html_links.asp">W2Schools</a>
+      <hr>    
+          <h2 id="Images">Images</h2>
+     <h3>Description</h3>
+     <p>How to add images </p>
+     <h3>Syntax</h3>
+     <p> start tag: &lt;img src&gt;</p>
+     <p> end tag: &lt;/img&gt; </p>
+     <h3>Example</h3>
+     <p>&lt;img src="img_chania.jpg" alt="Flowers in Chania"&gt;</p>
+     <h3>Display</h3>
+     <img src="img_chania.jpg" alt="Flowers in Chania">
+     
+     <a href="https://www.w3schools.com/html/html_images.asp">W2Schools</a>
+      <hr>    
+          <h2 id="Lists">Lists</h2>
+     <h3>Description</h3>
+     <p>How to make lists</p>
+     <h3>Syntax</h3>
+     <p> start tag:  &lt;ul&gt;</p>
+     <p> content: &lt;li&gt;(list)&lt;/li&gt;</p>
+     <p> end tag: &lt;/ul&gt;</p>
+     <h3>Example</h3>
+     <p> &lt;ul&gt;</p>
+     <p> &lt;li&gt;(list)&lt;/li&gt;</p>
+     <p> &lt;/ul&gt;</p>
+     <h3>Display</h3>
+     <ul>
+  <li>(list)</li>
+</ul>
+<a href="https://www.w3schools.com/html/html_lists.asp">W2Schools</a>
+      <hr>    
+          <h2 id="Tables">Tables</h2>
+     <h3>Description</h3>
+     <p>How to make a table</p>
+     <h3>Syntax</h3>
+     <p> start tag: &lt;table&gt;</p>
+     <p> content:&lt;tr&gt; &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt; </p>
+     <p>end tag: &lt;/table&gt;</p>
+     <h3>Example</h3>
+     <p>&lt;table&gt;</p>
+     <p>&lt;tr&gt;</p>
+     <p>&lt;td&gt;Table&lt;/td&gt;</p>
+     <p>&lt;td&gt;Table&lt;/td&gt;</p>
+     <p>&lt;td&gt;Table&lt;/td&gt;</p>
+     <p>&lt;/tr&gt;</p>
+     <p>&lt;/table&gt;</p>
+     <h3>Display</h3>
+     <table>
+       <tr>
+        <td>Table</td>
+        <td>Table</td>
+        <td>Table</td>
+       </tr>
+     </table>
+     <a href="https://www.w3schools.com/html/html_tables.asp">W2Schools</a>
+      <hr>    
+          <h2 id="Blocks">Blocks</h2>
+     <h3>Description</h3>
+     <p>A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can).</p>
+     <h3>Syntax</h3>
+     <p>&lt;div&gt;&lt;/div&gt;</p>
+     <h3>Example</h3>
+     <p>&lt;div&gt; First&lt;/div&gt;</p>
+     <p>&lt;div&gt; Seconds&lt;/div&gt;</p>
+     <h3>Display</h3>
+     <div>First</div>
+     <div>Second</div>
+     <a href="https://www.w3schools.com/html/html_blocks.asp">W2Schools</a>
+
+
+  </body>
+</html>
