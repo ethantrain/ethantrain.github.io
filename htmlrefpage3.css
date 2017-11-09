@@ -1,0 +1,36 @@
+body {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+/*this is the styleing part*/
+
+h1 {
+  text-align: center;
+}
+
+.Tables {
+  border-collapse: collapse;
+  width: 90%;
+}
+
+.Tables td, th {
+  border: 1px solid #ddd;
+} 
+
+.Tables th {
+  text-align: left;
+  background-color: blue;
+  color: white;
+}
+.Headpart {
+  margin: 12px;
+}
+.Headpart hr {
+  display: none;
+}
+.Headpart h2 {
+  margin-top: 50px;
+  padding: 12px;
+  background-color: blue;
+  color: white;
+}
