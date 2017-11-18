@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="layoutc3.css">
+</head>
+<body>
+
+<div class="header">
+  <div class="top">
+   <h1>Other Important Cucurbitaceae</h1>
+  </div>
+</div>
+
+<div class="topnav">
+  <a href="index3.html">Home</a>
+  <a href="page1.html">Health</a>
+  <a href="page2.html">Growth</a>
+  <a href="page3.html">Cucurbitaceae</a>
+  <a id="activepage" href="page4.html">Related</a>
+</div>
+
+<div class="row">
+  <div class="column side">
+   <img src="https://goo.gl/3r1N8H" width="180" height="150">
+   <img src="https://goo.gl/y3Naif" width="180" height="150">
+  
+  </div>
+  <div class="column middle">
+    <h2>Other Important</h2>
+    <p>Cantaloupe is also known as mushmelon, rockmelon, sweet melon, or spanspek.</p>
+    <p>The most important members of the Cucurbitaceae are squash, pumpkin, zucchini, some gourds, watermelon, and cucumber.</p>
+  </div>
+  <div class="column side">
+    <h3>Fun Fact!</h3>
+    <p>The luffa or loofah, the sponge used as a body scrub, is actually a dried out Cucurbitaceae called the loofah.</p>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Page 5</p>
+</div>
+  
+</body>
+</html>
