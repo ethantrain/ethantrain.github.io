@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="layoutc3.css">
+</head>
+<body>
+
+<div class="header">
+  <div class="top">
+   <h1>Growing Cantaloupe</h1>
+  </div>
+</div>
+
+<div class="topnav">
+  <a href="index3.html">Home</a>
+  <a href="page1.html">Health</a>
+  <a id="activepage" href="page2.html">Growth</a>
+  <a href="page3.html">Cucurbitaceae</a>
+  <a href="page4.html">Related</a>
+</div>
+
+<div class="row">
+  <div class="column side">
+    <h2>Best Conditions</h2>
+    <p>If you live in warmer climates, you can direct sow seeds outdoors, but wait until the soil temperature warms to at least 65 degrees.</p>
+    <p>If you are in a cooler zone, start seeds indoors about a month before transplanting. Cantaloupe vines are very tender and should not be transplanted until all danger of frost has passed.</p>
+    </div>
+  <div class="column middle">
+    <h2>How to Grow</h2>
+    <p> Plant seeds one inch deep, 18 inches apart, in hills about 3 feet apart. If you have limited space, vines can be trained to a support. </p>
+    <img src="https://goo.gl/T4Toda" width="180" height="150">
+
+  </div>
+  <div class="column side">
+    <h2></h2>
+    <img src="https://goo.gl/W28eTe" width="180" height="150">
+    
+     <img src="https://goo.gl/y9WipR" width="180" height="150">
+     finished product
+  </div>
+</div>
+
+<div class="footer">
+  <p>Page 3</p>
+</div>
+  
+</body>
+</html>
