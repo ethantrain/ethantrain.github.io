@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="layoutc3.css">
+</head>
+<body>
+
+<div class="header">
+  <div class="top">
+   <h1>Cucurbitaceae</h1>
+  </div>
+</div>
+
+<div class="topnav">
+  <a href="index3.html">Home</a>
+  <a href="page1.html">Health</a>
+  <a href="page2.html">Growth</a>
+  <a id="activepage" href="page3.html">Cucurbitaceae</a>
+  <a href="page4.html">Related</a>
+</div>
+
+<div class="row">
+  <div class="column side">
+   <img src="https://goo.gl/TnG8tH" width="150" height="150">
+   <img src="https://goo.gl/R4CUGu" width="150" height="150">
+  </div>
+  <div class="column middle">
+    <h2>What is a Cucurbitaceae?</h2>
+    <p>Cucurbitaceae, belonging to the order Cucurbitales and containing 98 genera and about 975 species of food and ornamental plants.</p> 
+    <p>Members of the family are annual or perennial herbs native to temperate and tropical areas. Most species are extremely sensitive to temperatures near freezing, a factor that limits their geographic distribution and area of cultivation. Cucurbits have a generally low nutrient content, one exception being the winter squashes.</p>
+  </div>
+  <div class="column side">
+    <h3>Fun Fact!</h3>
+    <p>Cantaloupe are part of this family.</p>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Page 4</p>
+</div>
+  
+</body>
+</html>
